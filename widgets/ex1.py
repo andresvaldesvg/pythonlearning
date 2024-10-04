@@ -3,7 +3,12 @@ from tkinter import ttk
 
 def button_func():
     #entry content
-    print(entry.get())
+    entry_text = entry.get()
+
+    #update label
+    #label.configure(text = 'More text')
+    label['text'] = entry_text
+
 #window
 window = tk.Tk()
 window.title("Getting more apps")
