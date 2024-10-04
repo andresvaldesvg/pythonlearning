@@ -34,8 +34,5 @@ ex_button.pack()
 button = ttk.Button(master = window, text = 'A button', command = button_func)
 button.pack()
 
-
-
-
 #run 
 window.mainloop()
