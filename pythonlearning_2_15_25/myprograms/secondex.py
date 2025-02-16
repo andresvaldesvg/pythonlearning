@@ -1,0 +1,5 @@
+print("Here are some fun shapes:")
+print("Star: \u2605")
+print("Heart: \u2665")
+print("Smiley Face: \u263A")
+print("Music Note: \u266B")
